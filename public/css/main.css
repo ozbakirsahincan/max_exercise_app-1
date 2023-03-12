@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    
+}
+header {
+    padding: 1rem;
+    background: rgb(127, 185, 255);
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 1rem;
+}
+nav ul li:hover {
+
+    border: 1px solid grey;
+    border-radius: 5px;
+}
